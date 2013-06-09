@@ -1,6 +1,6 @@
 {
     "require": {
         "php": ">=5.3.0",
-        "cypresslab/gitelephant": "0.9.*"
+        "cypresslab/gitelephant": "1.*@alpha"
     }
 }

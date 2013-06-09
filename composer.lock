@@ -3,30 +3,30 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3702a407f0a77d44c87c0f50c94cd2e4",
+    "hash": "56ba1ee92cff6872d48b6858ce2afa92",
     "packages": [
         {
             "name": "cypresslab/gitelephant",
-            "version": "0.9.18",
+            "version": "1.0.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matteosister/GitElephant.git",
-                "reference": "v0.9.18"
+                "reference": "v1.0.0-alpha3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matteosister/GitElephant/zipball/v0.9.18",
-                "reference": "v0.9.18",
+                "url": "https://api.github.com/repos/matteosister/GitElephant/zipball/v1.0.0-alpha3",
+                "reference": "v1.0.0-alpha3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "symfony/filesystem": ">=2.1,<2.3-dev",
-                "symfony/finder": ">=2.1,<2.3-dev",
-                "symfony/process": ">=2.1,<2.3-dev"
+                "symfony/filesystem": ">=2.1,<2.4-dev",
+                "symfony/finder": ">=2.1,<2.4-dev",
+                "symfony/process": ">=2.1,<2.4-dev"
             },
             "require-dev": {
-                "phpunit/phpunit": "@stable",
+                "phpunit/phpunit": "3.7.*",
                 "sami/sami": "dev-master"
             },
             "type": "library",
@@ -35,6 +35,7 @@
                     "GitElephant": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPLv3"
             ],
@@ -51,21 +52,21 @@
             "keywords": [
                 "git"
             ],
-            "time": "2013-04-22 22:34:49"
+            "time": "2013-06-07 20:18:33"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.2.2",
+            "version": "v2.3.0",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "v2.2.2"
+                "reference": "v2.3.0-RC1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/v2.2.2",
-                "reference": "v2.2.2",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/v2.3.0-RC1",
+                "reference": "v2.3.0-RC1",
                 "shasum": ""
             },
             "require": {
@@ -74,7 +75,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -82,6 +83,7 @@
                     "Symfony\\Component\\Filesystem\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -97,21 +99,21 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2013-05-06 20:02:13"
+            "time": "2013-05-06 20:03:44"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.2.2",
+            "version": "v2.3.0",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "v2.2.2"
+                "reference": "v2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/v2.2.2",
-                "reference": "v2.2.2",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/v2.3.0",
+                "reference": "v2.3.0",
                 "shasum": ""
             },
             "require": {
@@ -120,7 +122,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -128,6 +130,7 @@
                     "Symfony\\Component\\Finder\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -143,21 +146,21 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-05-27 20:26:32"
+            "time": "2013-06-02 12:05:51"
         },
         {
             "name": "symfony/process",
-            "version": "v2.2.2",
+            "version": "v2.3.0",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "v2.2.2"
+                "reference": "v2.3.0-RC1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/v2.2.2",
-                "reference": "v2.2.2",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/v2.3.0-RC1",
+                "reference": "v2.3.0-RC1",
                 "shasum": ""
             },
             "require": {
@@ -166,7 +169,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -174,6 +177,7 @@
                     "Symfony\\Component\\Process\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -189,7 +193,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2013-05-06 20:02:13"
+            "time": "2013-05-06 20:03:44"
         }
     ],
     "packages-dev": [
@@ -199,9 +203,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "cypresslab/gitelephant": 15
+    },
     "platform": {
         "php": ">=5.3.0"
     },
