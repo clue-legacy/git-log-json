@@ -18,8 +18,8 @@ class Command extends BaseCommand
     protected function configure()
     {
         $this->setName('dump')
-              ->setDescription('Greet someone')
-              ->addArgument('repository', InputArgument::OPTIONAL, 'Path to repository to dump', '.');
+             ->setDescription('Greet someone')
+             ->addArgument('repository', InputArgument::OPTIONAL, 'Path to repository to dump', '.');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -33,10 +33,9 @@ class Command extends BaseCommand
         foreach ($repo->getLog('HEAD', null, null, null) as $commit) {
             /* @var $commit Commit */
 
-            $entry = array(
+            $logs []= array(
                 'commit' => $commit->getSha(false),
                 'parents' => $commit->getParents(),
-                //         'refs' => $commit->getRefs(),
                 'author' => array(
                     'name' => $commit->getAuthor()->getName(),
                     'email' => $commit->getAuthor()->getEmail(),
@@ -49,8 +48,6 @@ class Command extends BaseCommand
                 ),
                 'message' => $commit->getMessage()->getFullMessage()
             );
-
-            $log []= $entry;
         }
 
         $output->writeln(json_encode($log));
