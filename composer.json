@@ -1,4 +1,10 @@
 {
+    "name": "clue/git-log-json",
+    "type": "project",
+    "description": "Export git log as JSON",
+    "keywords": ["git", "log", "export", "json"],
+    "license": "MIT",
+    "homepage": "https://github.com/clue/git-log-json",
     "require": {
         "php": ">=5.3.0",
         "cypresslab/gitelephant": "1.*@alpha",
@@ -6,5 +12,6 @@
     },
     "autoload": {
         "psr-0": {"Clue\\GitLogJson": "src/"}
-    }
+    },
+    "bin": ["bin/git-log-json.php"]
 }
