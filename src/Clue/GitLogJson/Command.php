@@ -50,6 +50,6 @@ class Command extends BaseCommand
             );
         }
 
-        $output->writeln(json_encode($log));
+        $output->writeln(json_encode($logs));
     }
 }
